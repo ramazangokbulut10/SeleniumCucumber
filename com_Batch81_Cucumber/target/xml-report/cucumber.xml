@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.092">
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile azamsonda arama yapabilmeli" time="28.6">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given kullanici amazon anasayfasinda........................................passed
+And kullanici "Java" icin arama yapar.......................................passed
+And sonuclarin "Hava" icerdigini test eder..................................failed
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(AmazonStepDefinitions.java:78)
+	at ✽.sonuclarin "Hava" icerdigini test eder(file:///C:/techpro%20Java/com_Batch81_Cucumber/src/test/resources/features/US1003_parametreKullanimi.feature:7)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
